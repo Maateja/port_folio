@@ -52,7 +52,7 @@ The platform includes a specialized "One Stop Personalised Career and Education 
 The `run.py` script will automatically start both the FastAPI backend server (port 8000) and the frontend HTTP server (port 3000), then open the application in your default web browser.
 
 ## Project Structure
-- **Root Directory**: Contains the core frontend files (`index.html`, `css/`, `js/`, and `assets/`) for direct deployment compatibility.
+- `public/`: Contains all client-side assets (`index.html`, `css/`, `js/`, `assets/`) for high-compatibility deployment.
 - `backend/`: Contains the Python FastAPI application and API endpoint definitions.
 - `assets/`: Hosting local media, including project videos, certificates, and professional imagery.
 - `run.py`: The unified entry point for local development environments.
