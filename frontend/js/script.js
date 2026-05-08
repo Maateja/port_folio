@@ -364,10 +364,10 @@ function initThreeJS() {
     particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
 
     const material = new THREE.PointsMaterial({
-        size: 0.005,
+        size: 0.015,
         color: '#0891b2',
         transparent: true,
-        opacity: 0.8,
+        opacity: 0.9,
         blending: THREE.AdditiveBlending
     });
 
