@@ -13,8 +13,8 @@ def start_backend():
 
 def start_frontend():
     print("[Frontend] Starting HTTP server on port 3000...")
-    public_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "public")
-    subprocess.run([sys.executable, "-m", "http.server", "3000"], cwd=public_dir)
+    root_dir = os.path.dirname(os.path.abspath(__file__))
+    subprocess.run([sys.executable, "-m", "http.server", "3000"], cwd=root_dir)
 
 if __name__ == "__main__":
     print("=========================================")
